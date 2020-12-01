@@ -1,0 +1,47 @@
+﻿1. Tạo repository mới
+	git init
+	git clone + url
+2. git status
+
+3. git add  + tên file
+   git add .  (add cả folder)
+
+4. git commit -m  + "commit message"
+
+5. git log
+	Xem lịch sử các commit
+
+6. git show
+	Xem chi tiết commit
+
+7. git diff
+	Xem thay đổi (chưa được add) của file
+
+8.	working directory
+	staging area
+	git repository
+	https://xuanthulab.net/photo/basic-remote-workflow.png
+
+9. git restore
+	Xóa bỏ thay đổi nội dung file ở working directory chưa được đẩy lên staging area
+
+	git restore --staged / git reset
+	chuyển file từ staging xuống working directory
+
+10. git add/rm <file>..." to update what will be committed
+
+
+11. branching & merging
+	git checkout -b <branch> (homework/unit5 Tạo nhánh mới và chuyển sang luôn bằng 1 dòng lệnh
+	git checkout <branch> chuyển tới làm việc tại nhánh mong muốn
+	git branch : kiểm tra nhánh đang làm việc
+
+	git merge
+	checkout ở branch A. merge branch B về A:  git merge <branch> homework/unit5
+	(git stash)
+	
+	Xóa brach sau khi merge
+	git branch -D <branch>
+
+
+	
