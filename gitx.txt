@@ -1,0 +1,20 @@
+﻿github
+
+1. git clone
+	sao chép tệp ở remote repository về máy
+
+2. git pull
+	cập nhật các file thay đổi trên remote repository về máy
+
+3. Tạo branch
+     git checkout -b <feature/branch>
+	 tạo branch mới và làm việc trên branch đó
+
+     git push origin <branch>
+	đẩy branch mới lên remote repository 
+
+4. Xóa branch
+	local: 	git branch -D <branch>
+	remote: git push origin --delete <branch>
+
+5.
