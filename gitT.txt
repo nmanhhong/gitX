@@ -1,0 +1,31 @@
+Tạo repo
+* git init	: tạo local repo
+* git clone	: sao chép repo trên remote
+
+Thêm sửa file:
+* git add	: add file vào local repo
+* git commit	: commit file vào local repo
+* git push	: đồng bộ file từ local lên remote
+* git pull	: đồng bộ file từ remote về local
+
+Xử lý conflict
+pull rồi mới add commit push
+
+Check file
+* git log
+
+Branch
+* git branch
+* git checkout
+* git merge
+
+
+FLOW
+
+1. creat repository
+2. git init
+3. git add <file>
+4. git commit -m "first commit"
+
+5. git remote add origin <url repository.git>
+6. git push -u origin master
